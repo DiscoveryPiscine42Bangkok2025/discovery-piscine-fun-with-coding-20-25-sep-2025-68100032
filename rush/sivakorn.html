@@ -1,79 +1,81 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8" />
-  <title>ศิวกร ศรีวงศ์ทอง</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link 
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
-    rel="stylesheet" />
-  <style>
-    body {
-      scroll-behavior: smooth;
-    }
-    section {
-      padding: 80px 0;
-    }
-    .navbar {
-      background-color: #5799e6;
-    }
-    .navbar a {
-      color: rgb(251, 250, 250) !important;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV ของ ศิวกร ศรีวงศ์ทอง </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: #f4f4f4;
+        }
+        .cv-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .profile-header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .profile-header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .section-title {
+            font-size: 1.5em;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">ศิวกร ศรีวงศ์ทอง</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="cv-container">
+        <div class="profile-header">
+            <h1>นายชลภัทร นามพิทักษ์</h1>
+            <p>หัวหน้า</p>
+        </div>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#intro">ข้อมูลส่วนตัว</a></li>
-          <li class="nav-item"><a class="nav-link" href="#experience">ประสบการณ์</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">ทักษะ</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">ข้อมูลติดต่อ</a></li>
-        </ul>
-      </div>
+        <div class="cv-section">
+            <h2 class="section-title">ข้อมูลส่วนตัว</h2>
+            <p><strong>วันเกิด:</strong> 8 กันยายน 2549</p>
+            <p><strong>การศึกษา:</strong> กำลังศึกษาอยู่คณะบริหาร สาขาวิชาเศรษฐศาสตร์ธุรกิจและการจัดการ</p>
+        </div>
 
+        <div class="cv-section">
+            <h2 class="section-title">ประสบการณ์ทำงาน</h2>
+            <p>ไม่มีประสบการณ์ทำงานในด้านนี้</p>
+        </div>
+
+        <div class="cv-section">
+            <h2 class="section-title">ทักษะ</h2>
+            <ul>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+
+        <div class="cv-section contact-info">
+            <h2 class="section-title">ข้อมูลติดต่อ</h2>
+            <p><strong>อีเมล:</strong> <a href="mailto:itcity5536@gmail.com">itcity5536@gmail.com</a></p>
+        </div>
     </div>
-  </nav>
-
-  <section id="intro" style="background-color: #e0f7fa;">
-    <div class="container text-left">
-      <h2>ข้อมูลส่วนตัว</h2>
-        <p class="lead"><strong>ชื่อ:</strong> นายศิวกร ศรีวงศ์ทอง</p>
-        <p class="lead"><strong>ตำแหน่ง:</strong> ลูกทีม</p>
-        <p class="lead"><strong>วันเกิด:</strong> 28 มิถุนายน 2550</p>
-        <p class="lead"><strong>การศึกษา:</strong> กำลังศึกษาอยู่คณะบริหารธุรกิจ สาขาเศรษฐศาสตร์ธุรกิจและการจัดการ</p>
-    </div>
-  </section>
-
-  <section id="experience" style="background-color: #e0f7fa;">
-    <div class="container">
-      <h3 class="mb-4">ประสบการณ์ทำงาน</h3>
-      <p>ไม่มีประสบการณ์ทำงานในด้านนี้</p>
-    </div>
-  </section>
-
-  <section id="skills" style="background-color: #e0f7fa;">
-      <div class="container">
-          <h3 class="mb-4">ทักษะ</h3>
-          <p><em>(ยังไม่มีข้อมูลทักษะ คุณสามารถเพิ่มรายการทักษะได้ที่นี่)</em></p>
-          </div>
-  </section>
-
-  <section id="contact" class="text-center" style="background-color: #8fb2db; padding: 40px 0;">
-    <div class="container">
-      <h3 class="mb-4">- ติดต่อ -</h3>
-      <p>Email: <a href="mailto:Sivakorn.him@gmail.com">Sivakorn.him@gmail.com</a></p>
-    </div>
-  </section>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
